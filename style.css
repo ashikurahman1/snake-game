@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html,
 body {
   height: 100%;
@@ -100,7 +99,7 @@ section .infos {
 
 .food {
   background-color: var(--bg-food-color);
-}
+}  
 .modal {
   height: 100vh;
   width: 100vw;
@@ -121,4 +120,8 @@ section .infos {
 }
 .modal .game-over {
   display: none;
+}  @media (min-width: 768px) {
+  .controls {
+    display: none;
+  }
 }
