@@ -79,7 +79,7 @@ section .infos {
   border-radius: var(--border-radius-sm);
 }
 
-.board { height: calc(100vh - 150px);
+.board {
   border: 1px solid var(--border-primary-color);
   flex-grow: 1;
   display: grid;
@@ -159,5 +159,10 @@ section .infos {
 @media (min-width: 768px) {
   .controls {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .board {
+    height: calc(100vh - 180px);
   }
 }
