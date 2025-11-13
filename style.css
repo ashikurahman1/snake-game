@@ -163,6 +163,6 @@ section .infos {
 }
 @media (max-width: 768px) {
   .board {
-    height: calc(100vh - 180px);
+    height: calc(100% - 180px);
   }
 }
